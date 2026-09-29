@@ -1,0 +1,25 @@
+{
+    "model_file": "f1_podium_predictor_v2.pkl",
+    "model_version": "V2",
+    "target": "podium",
+    "features": [
+        "grid",
+        "qualifying_position",
+        "qualifying_missing",
+        "previous_finish_num",
+        "previous_podium",
+        "previous_points",
+        "recent_5_podiums",
+        "recent_5_points",
+        "constructor_recent_5_podiums",
+        "constructor_recent_5_points",
+        "qualifying_grid_gap",
+        "recent_form_score",
+        "constructor_form_score",
+        "combined_form_score",
+        "previous_result_score",
+        "qualifying_strength"
+    ],
+    "num_features": 16,
+    "num_trees": 500
+}
